@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-gray-100;
+    }
+}
+
+@layer components {
+    .products {
+        @apply flex flex-wrap justify-between mt-8
+    }
+
+    .searched.products {
+        @apply justify-start gap-4
+}
+
+
+
+}
